@@ -1,0 +1,17 @@
+{
+"companyName": "DefaultCompany",
+"productName": "It's Just A Game",
+"productVersion": "0.1",
+"dataUrl": "New folder (3).data.unityweb",
+"wasmCodeUrl": "New folder (3).wasm.code.unityweb",
+"wasmFrameworkUrl": "New folder (3).wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "New folder (3).jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.0f2"
+}

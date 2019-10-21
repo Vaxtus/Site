@@ -1,17 +1,25 @@
-
-<html>
-  <title>
-    The Files etc.
-  </title>
-  
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | It's Just A Game</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/New folder (3).json", {onProgress: UnityProgress});
+    </script>
+  </head>
   <body>
-    <h1> Welcome to my website. This is where my files are held for easy access. I may have sent you here. </h1>
-     <h1> WIP. </h1>
-    
-    
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">It's Just A Game</div>
+      </div>
+    </div>
   </body>
-      <a href="Project Cobra Ver 2.mp3">Project Cobra Ver 2</a>
-      <a href="GWQGW.mp3">RAP SONG</a>
-      <a href="Song.mp3">Some Song</a>
-      <a href="Blocked.zip">WIP ALPHA UNRELEASED GAME SHHH DONT TELL ANYONE OH MY GOD PLEASE</a>
 </html>
